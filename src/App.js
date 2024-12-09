@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import './components/style.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navtoggle from './components/navtoggle';
 import Home from './components/home';

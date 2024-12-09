@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+    .offcanvas.offcanvas-end {
+      width: 70% !important;
+    }
+  }
