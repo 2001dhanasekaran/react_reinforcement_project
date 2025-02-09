@@ -18,7 +18,7 @@ export default function About(){
             <h1 data-aos="slide-up">About</h1>
             <p data-aos="slide-up">
                 I Am A Skilled Frontend Developer With Expertise In Creating Responsive, High-Performance Web Applications. 
-                With A Deep Understanding Of HTML, CSS, Bootstrap, JavaScript, And Frameworks Like React, I Turn Complex Designs Into 
+                With A Deep Understanding Of HTML, CSS, Bootstrap, JavaScript, And JavaScript Libraries Like React, I Turn Complex Designs Into 
                 Seamless, Interactive User Interfaces. My Focus Is On Delivering Clean, Maintainable Code While Ensuring Optimal User 
                 Experience And Cross-Browser Compatibility. I Thrive On Solving Problems And Continuously Learning New 
                 Technologies To Build Innovative, Efficient Solutions. Let's Collaborate To Bring Your Ideas To Life!
