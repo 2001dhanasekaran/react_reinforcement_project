@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <div className="container mt-5 py-5">
             <h1 data-aos="fade-up">Contact Details</h1>
-            <a href='tel:+919597685056' className='btn btn-outline-success pb-3' data-aos="fade-up">
+            <a href='tel:+919597685056' className='btn btn-outline-success ms-3 pb-3' data-aos="fade-up">
                 <span className='me-3 fs-3'><FaWhatsapp /></span>+91 95976 85056
             </a>
             <a href='mailto:2001.dhanasekaran@gmail.com' className='btn btn-outline-primary ms-3 pb-3' data-aos="fade-down">
