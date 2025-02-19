@@ -3,6 +3,9 @@ import cssLogo from '../imgs/css_logo.webp';
 import bootstrapLogo from '../imgs/bootstrap_logo.png';
 import jsLogo from '../imgs/javascript_logo.webp';
 import reactLogo from '../imgs/react_logo.webp';
+import expressLogo from '../imgs/express-js.png';
+import mongoDBLogo from '../imgs/mongodb-icon.svg';
+import nodeLogo from '../imgs/nodejs.svg';
 
 export default function About(){
     const skills=[
@@ -11,17 +14,21 @@ export default function About(){
         { src: bootstrapLogo, alt: 'Bootstrap logo' },
         { src: jsLogo, alt: 'JavaScript logo' },
         { src: reactLogo, alt: 'React logo' },
+        { src: nodeLogo, alt: 'Node Logo'},
+        { src: expressLogo, alt:'Express Logo'},
+        { src: mongoDBLogo, alt: 'MongoDB Logo'},
 
     ];
     return(
         <div className="container mt-5 pt-5 border">
             <h1 data-aos="slide-up">About</h1>
             <p data-aos="slide-up">
-                I Am A Skilled Frontend Developer With Expertise In Creating Responsive, High-Performance Web Applications. 
-                With A Deep Understanding Of HTML, CSS, Bootstrap, JavaScript, And JavaScript Libraries Like React, I Turn Complex Designs Into 
-                Seamless, Interactive User Interfaces. My Focus Is On Delivering Clean, Maintainable Code While Ensuring Optimal User 
-                Experience And Cross-Browser Compatibility. I Thrive On Solving Problems And Continuously Learning New 
-                Technologies To Build Innovative, Efficient Solutions. Let's Collaborate To Bring Your Ideas To Life!
+            I am a proficient Full-Stack Developer with expertise in building responsive, high-performance web applications. 
+            With a strong command of HTML, CSS, Bootstrap, JavaScript, React.js, Express.js, and MongoDB, I transform complex 
+            designs into seamless, interactive user experiences. My focus is on writing clean, maintainable code while ensuring 
+            optimal performance, scalability, and cross-browser compatibility. Passionate about problem-solving and continuous 
+            learning, I stay updated with emerging technologies to create innovative and efficient solutions. Let’s collaborate 
+            to turn your vision into reality!
             </p>
             <h1 className="text-center my-5" data-aos="fade-up">My Skills</h1>
             <div className="row" data-aos="fade-down">

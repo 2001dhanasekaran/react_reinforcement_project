@@ -34,7 +34,7 @@ export default function Projects(){
                 <img src={sample_ui} className="card-img-top img-fluid" alt="sample_ui" style={{objectFit:'cover', height: '400px'}} />
                 <div className="card-body">
                     <h5 className="card-title"> Dashboard page UI</h5>
-                    <p className="card-text">Developed a responsive Dashboard page UI using React and Bootstrap.</p>
+                    <p className="card-text">Developed a Dashboard page UI using React and Bootstrap.</p>
                     <a className='btn btn-primary' href="https://amazing-fenglisu-f3f64e.netlify.app/" target="block" >Go to App</a>
                 </div>
             </div>
