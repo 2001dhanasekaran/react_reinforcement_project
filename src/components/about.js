@@ -23,7 +23,7 @@ export default function About(){
         <div className="container mt-5 pt-5 border">
             <h1 data-aos="slide-up">About</h1>
             <p data-aos="slide-up">
-            I am a proficient Full-Stack Developer with expertise in building responsive, high-performance web applications. 
+            I am a proficient MERN Stack Developer with expertise in building responsive, high-performance web applications. 
             With a strong command of HTML, CSS, Bootstrap, JavaScript, React.js, Express.js, and MongoDB, I transform complex 
             designs into seamless, interactive user experiences. My focus is on writing clean, maintainable code while ensuring 
             optimal performance, scalability, and cross-browser compatibility. Passionate about problem-solving and continuous 
