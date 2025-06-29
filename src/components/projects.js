@@ -1,6 +1,6 @@
 import shopping_cart from '../imgs/shopping_cart.png';
 import registration_page from '../imgs/registration_page.png';
-import sample_ui from '../imgs/sample_ui.png';
+import weather_app from '../imgs/weather_app.png';
 
 export default function Projects(){
     return(
@@ -31,11 +31,13 @@ export default function Projects(){
                     <a className='btn btn-primary' href="https://beautiful-gumption-192d54.netlify.app/" target="block" >Go to App</a>                    </div>
             </div>
             <div className="card mb-5" data-aos="fade-up">
-                <img src={sample_ui} className="card-img-top img-fluid" alt="sample_ui" style={{objectFit:'cover', height: '400px'}} />
+                <img src={weather_app} className="card-img-top img-fluid" alt="weather_app" style={{objectFit:'cover', height: '400px'}} />
                 <div className="card-body">
-                    <h5 className="card-title"> Dashboard page UI</h5>
-                    <p className="card-text">Developed a Dashboard page UI using React and Bootstrap.</p>
-                    <a className='btn btn-primary' href="https://amazing-fenglisu-f3f64e.netlify.app/" target="block" >Go to App</a>
+                    <h5 className="card-title">Weather App</h5>
+                    <p className="card-text">Built a responsive Weather App using HTML, CSS, JavaScript, and OpenWeatherMap 
+                        API with geolocation support and dynamic city-based weather reports.
+                    </p>
+                    <a className='btn btn-primary' href="https://quiet-maamoul-140ac3.netlify.app/" target="block" >Go to App</a>
                 </div>
             </div>
         </div>
