@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 export default function Navtoggle(){
     return(
         <div>
@@ -19,16 +17,16 @@ export default function Navtoggle(){
                         <div className="offcanvas-body">
                             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/" >Home</Link>
+                                <a className="nav-link active" aria-current="page" href="#top" >Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link active" aria-current="page" to="/about">About</Link>
+                                    <a className="nav-link active" aria-current="page" href="#about">About</a>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link active" aria-current="page" to="/projects">Projects</Link>
+                                    <a className="nav-link active" aria-current="page" href="#projects">Projects</a>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link active" aria-current="page" to="/contact">Contact</Link>
+                                    <a className="nav-link active" aria-current="page" href="#contact">Contact</a>
                                 </li>
                             </ul>
                         </div>

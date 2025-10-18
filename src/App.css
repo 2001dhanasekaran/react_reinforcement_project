@@ -1,3 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.blur_caption{
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  padding: 10px;
+}
+
 .App {
   text-align: center;
 }
