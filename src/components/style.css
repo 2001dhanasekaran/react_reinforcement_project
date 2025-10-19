@@ -1,3 +1,27 @@
+.nav-link{
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background-color: #7a40b1;
+  transition: width 0.3s ease;
+}
+
+.nav-link.active-link::after{
+  width: 100%;
+}
+
+.nav-link:hover{
+  color: #7a40b1;
+}
+
 @media (max-width: 768px) {
     .offcanvas.offcanvas-end {
       width: 70% !important;

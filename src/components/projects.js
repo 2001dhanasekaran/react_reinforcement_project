@@ -55,100 +55,100 @@ export default function Projects(){
             <div className="card mb-5" data-aos="fade-up">
                 <div className="card-body carousel slide" id='stationary'>
                     <div className="carousel-indicators">
-                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"  ></button>
-                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="1" aria-label="Slide 2" ></button>
-                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="2" aria-label="Slide 3" ></button>
-                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="3" aria-label="Slide 4" ></button>
-                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="4" aria-label="Slide 5" ></button>
-                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="5" aria-label="Slide 6" ></button>
-                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="6" aria-label="Slide 7" ></button>
-                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="7" aria-label="Slide 8" ></button>
-                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="8" aria-label="Slide 9" ></button>
-                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="9" aria-label="Slide 10" ></button>
-                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="10" aria-label="Slide 11" ></button>
-                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="11" aria-label="Slide 12" ></button>
+                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                        <button type="button" data-bs-target="#stationary" data-bs-slide-to="11" aria-label="Slide 12"></button>
                     </div>
                     <div className='carousel-inner'>
                         <div className="carousel-item active">
-                            <img src={eComLogin} className="d-block w-100 img-fluid" alt="eComLogin" style={{objectFit:'cover', height: '400px'}} />
-                            <div className="carousel-caption d-none d-md-block blur_caption">
+                            <img src={eComLogin} className="d-block w-100 img-fluid" alt="eComLogin" style={{objectFit:'contain', height: '400px'}} />
+                            <div className="carousel-caption blur_caption">
                                 <h5>Login Page</h5>
                                 <p>User login interface with authentication features.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src={eComRegister} className="d-block w-100 img-fluid" alt="eComRegister" style={{objectFit:'cover', height: '400px'}} />
-                            <div className="carousel-caption d-none d-md-block blur_caption">
+                            <img src={eComRegister} className="d-block w-100 img-fluid" alt="eComRegister" style={{objectFit:'contain', height: '400px'}} />
+                            <div className="carousel-caption blur_caption">
                                 <h5>Registration Page</h5>
                                 <p>User registration interface with form validation.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src={ecomAdmin} className="d-block w-100 img-fluid" alt="ecomAdmin" style={{objectFit:'cover', height: '400px'}} />
-                            <div className="carousel-caption d-none d-md-block text-dark blur_caption">
+                            <img src={ecomAdmin} className="d-block w-100 img-fluid" alt="ecomAdmin" style={{objectFit:'contain', height: '400px'}} />
+                            <div className="carousel-caption text-dark blur_caption">
                                 <h5>Admin Dashboard</h5>
                                 <p>Admin interface for managing products.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src={adminAddProduct} className="d-block w-100 img-fluid" alt="adminAddProduct" style={{objectFit:'cover', height: '400px'}} />
-                            <div className="carousel-caption d-none d-md-block text-dark blur_caption">
+                            <img src={adminAddProduct} className="d-block w-100 img-fluid" alt="adminAddProduct" style={{objectFit:'contain', height: '400px'}} />
+                            <div className="carousel-caption text-dark blur_caption">
                                 <h5>Add Product Dialog box</h5>
                                 <p>Admin interface for adding new products.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src={adminEditProduct} className="d-block w-100 img-fluid" alt="adminEditProduct" style={{objectFit:'cover', height: '400px'}} />
-                            <div className="carousel-caption d-none d-md-block text-dark blur_caption">
+                            <img src={adminEditProduct} className="d-block w-100 img-fluid" alt="adminEditProduct" style={{objectFit:'contain', height: '400px'}} />
+                            <div className="carousel-caption text-dark blur_caption">
                                 <h5>Edit Product Dialog box</h5>
                                 <p>Admin interface for editing existing products.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src={ecomHome} className="d-block w-100 img-fluid" alt="ecomHome" style={{objectFit:'cover', height: '400px'}} />
-                            <div className="carousel-caption d-none d-md-block blur_caption">
+                            <img src={ecomHome} className="d-block w-100 img-fluid" alt="ecomHome" style={{objectFit:'contain', height: '400px'}} />
+                            <div className="carousel-caption blur_caption">
                                 <h5>Home Page</h5>
                                 <p>User-friendly interface</p>
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src={categories} className="d-block w-100 img-fluid" alt="categories" style={{objectFit:'cover', height: '400px'}} />
-                            <div className="carousel-caption d-none d-md-block blur_caption">
+                            <img src={categories} className="d-block w-100 img-fluid" alt="categories" style={{objectFit:'contain', height: '400px'}} />
+                            <div className="carousel-caption blur_caption">
                                 <h5>Categories Page</h5>
                                 <p>User-friendly interface for browsing products based on categories.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src={productDisplay} className="d-block w-100 img-fluid" alt="productDisplay" style={{objectFit:'cover', height: '400px'}} />
-                            <div className="carousel-caption d-none d-md-block text-dark blur_caption">
+                            <img src={productDisplay} className="d-block w-100 img-fluid" alt="productDisplay" style={{objectFit:'contain', height: '400px'}} />
+                            <div className="carousel-caption text-dark blur_caption">
                                 <h5>Product Display Page</h5>
                                 <p>User-friendly interface for viewing product details.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src={wishlist} className="d-block w-100 img-fluid" alt="wishlist" style={{objectFit:'cover', height: '400px'}} />
-                            <div className="carousel-caption d-none d-md-block text-dark blur_caption">
+                            <img src={wishlist} className="d-block w-100 img-fluid" alt="wishlist" style={{objectFit:'contain', height: '400px'}} />
+                            <div className="carousel-caption text-dark blur_caption">
                                 <h5>Wishlist Page</h5>
                                 <p>User-friendly interface for managing product wishlists.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src={cart} className="d-block w-100 img-fluid" alt="cart" style={{objectFit:'cover', height: '400px'}} />
-                            <div className="carousel-caption d-none d-md-block text-dark blur_caption">
+                            <img src={cart} className="d-block w-100 img-fluid" alt="cart" style={{objectFit:'contain', height: '400px'}} />
+                            <div className="carousel-caption text-dark blur_caption">
                                 <h5>Cart Page</h5>
                                 <p>User-friendly interface for managing shopping cart items.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src={about} className="d-block w-100 img-fluid" alt="about" style={{objectFit:'cover', height: '400px'}} />
-                            <div className="carousel-caption d-none d-md-block text-dark blur_caption">
+                            <img src={about} className="d-block w-100 img-fluid" alt="about" style={{objectFit:'contain', height: '400px'}} />
+                            <div className="carousel-caption text-dark blur_caption">
                                 <h5>About Page</h5>
                                 <p>User-friendly interface for viewing information about the company.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src={contact} className="d-block w-100 img-fluid" alt="contact" style={{objectFit:'cover', height: '400px'}} />
-                            <div className="carousel-caption d-none d-md-block text-dark blur_caption ">
+                            <img src={contact} className="d-block w-100 img-fluid" alt="contact" style={{objectFit:'contain', height: '400px'}} />
+                            <div className="carousel-caption text-dark blur_caption ">
                                 <h5>Contact Page</h5>
                                 <p>User-friendly interface for contacting support.</p>
                             </div>
@@ -164,7 +164,7 @@ export default function Projects(){
                     </button>
                 </div>
                 <div className="card-body">
-                    <h5 className="card-title">Stationary E-Commerce Product Management System</h5>
+                    <h5 className="card-title">Stationary E-Commerce Website</h5>
                     <p className="card-text">Developed a MERN stack e-commerce website with features for adding products to 
                         the Cart and Wishlist, enhancing user experience. Implemented an admin panel for efficient product 
                         management. Designed an interactive and responsive UI for seamless shopping.
