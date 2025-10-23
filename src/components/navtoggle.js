@@ -11,14 +11,23 @@ export default function Navtoggle(){
     };
 
     useEffect(() => {
-        const sections = document.querySelectorAll('div[id]');
+        const sections = document.querySelectorAll('.main-section');
         const observeScroll= new IntersectionObserver((entries) => {
+            let mostVisible = null;
+            let maxRatio = 0;
+
             entries.forEach((entry) => {
-                if (entry.isIntersecting) {
+                if (entry.isIntersecting && entry.intersectionRatio > maxRatio) {
+                    maxRatio = entry.intersectionRatio;
+                    mostVisible = entry.target.id;
                     setActiveLink(entry.target.id);
                 }
+
+                if(mostVisible){
+                    setActiveLink(mostVisible);
+                }
             });
-        }, { threshold: 0.3 }
+        }, { threshold: [0.1, 0.3, 0.5, 0.7], rootMargin: '-10% 0px -40% 0px' }
     );
     sections.forEach((section) => observeScroll.observe(section));
 

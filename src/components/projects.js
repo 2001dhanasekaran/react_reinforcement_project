@@ -1,6 +1,7 @@
 import shopping_cart from '../imgs/shopping_cart.png';
 import registration_page from '../imgs/registration_page.png';
 import weather_app from '../imgs/weather_app.png';
+import calculator_app from '../imgs/calculator_app.png';
 import eComLogin from '../imgs/login_page.png';
 import eComRegister from '../imgs/registration_page1.png';
 import ecomAdmin from '../imgs/admin_page.png';
@@ -50,6 +51,16 @@ export default function Projects(){
                         API with geolocation support and dynamic city-based weather reports.
                     </p>
                     <a className='btn btn-primary' href="https://quiet-maamoul-140ac3.netlify.app/" target="_blank" rel="noopener noreferrer">Go to App</a>
+                </div>
+            </div>
+            <div className="card mb-5" data-aos="fade-up">
+                <img src={calculator_app} className="card-img-top img-fluid" alt="calculator_app" style={{objectFit:'cover', height: '400px'}} />
+                <div className="card-body">
+                    <h5 className="card-title">Calculator App</h5>
+                    <p className="card-text">A responsive calculator built with HTML, CSS, Bootstrap, and JavaScript, featuring real-time arithmetic, 
+                        percentage, and exponent operations. Designed with clean UI and smart logic for smooth, accurate calculations.
+                    </p>
+                    <a className='btn btn-primary' href="https://glowing-sfogliatella-5c052c.netlify.app/" target="_blank" rel="noopener noreferrer">Go to App</a>
                 </div>
             </div>
             <div className="card mb-5" data-aos="fade-up">
