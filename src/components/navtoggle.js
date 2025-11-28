@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './style.css';
+import SocialLinks from './socialLinks';
 export default function Navtoggle(){
 
     const [activeLink, setActiveLink] = useState('top');
@@ -64,6 +64,9 @@ export default function Navtoggle(){
                                         </button>
                                     </li>
                                 ))}
+                                <li className="nav-link border-0 bg-transprarent position-relative">
+                                    <SocialLinks />
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -77,6 +80,9 @@ export default function Navtoggle(){
                                     </button>
                                 </li>
                             ))}
+                            <li className="nav-item">
+                                <SocialLinks />
+                            </li>  
                         </ul>
                     </div>
                 </div>
