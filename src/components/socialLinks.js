@@ -16,7 +16,7 @@ export default function SocialLinks() {
                 <a className='social-link text-decoration-none text-dark mb-2' 
                     target="_blank" rel="noopener noreferrer"
                     href='https://www.linkedin.com/in/dhanasekaran-p-1911b3209/'>
-                    <span className="me-2 text-primary bg-white m-0 bi bi-linkedin"></span>
+                    <span className="me-2 bi bi-linkedin"></span>
                     Linkedin
                 </a>
                 <a className='social-link text-decoration-none text-dark mb-2' 
@@ -28,7 +28,7 @@ export default function SocialLinks() {
                 <a className='social-link text-decoration-none text-dark' 
                     target="_blank" rel="noopener noreferrer"
                     href='https://github.com/2001dhanasekaran/react_reinforcement_project'>
-                    <span className="me-2 text-primary bi bi-code-slash"></span>
+                    <span className="me-2 bi bi-code-slash"></span>
                     Code
                 </a>
             </div>
