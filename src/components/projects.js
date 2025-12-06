@@ -14,6 +14,7 @@ import wishlist from '../imgs/wishlist_page.png';
 import cart from '../imgs/cart_page.png';
 import contact from '../imgs/contact_page.png';
 import about from '../imgs/about_page.png';
+import HighlightSkills from './highlightSkills';
 
 export default function Projects(){
     return(
@@ -27,6 +28,8 @@ export default function Projects(){
                         This application displays a list of products for users to browse and add to their cart. 
                         It also shows the cart details and allows users to manage their cart.
                     </p>
+                    <h5>Skills Used:</h5>
+                    <HighlightSkills skills={['React', 'Bootstrap', 'Local Storage']} />
                     <a className='btn btn-primary' href="https://tangerine-klepon-e91c3a.netlify.app/" target="_blank" rel="noopener noreferrer">Go to App</a>
                 </div>
             </div>
@@ -41,6 +44,8 @@ export default function Projects(){
                         page, users can enter their credentials, and if the credentials match the stored values in the 
                         local database, they are redirected to a dashboard page.                
                     </p>
+                    <h5>Skills Used:</h5>
+                    <HighlightSkills skills={['React', 'Bootstrap', 'Local Storage']} />
                     <a className='btn btn-primary' href="https://beautiful-gumption-192d54.netlify.app/" target="_blank" rel="noopener noreferrer">Go to App</a>                    </div>
             </div>
             <div className="card mb-5" data-aos="fade-up">
@@ -50,6 +55,8 @@ export default function Projects(){
                     <p className="card-text">Built a responsive Weather App using HTML, CSS, JavaScript, and OpenWeatherMap 
                         API with geolocation support and dynamic city-based weather reports.
                     </p>
+                    <h5>Skills Used:</h5>
+                    <HighlightSkills skills={['HTML', 'CSS', 'JavaScript', 'API']} />
                     <a className='btn btn-primary' href="https://quiet-maamoul-140ac3.netlify.app/" target="_blank" rel="noopener noreferrer">Go to App</a>
                 </div>
             </div>
@@ -60,6 +67,8 @@ export default function Projects(){
                     <p className="card-text">A responsive calculator built with HTML, CSS, Bootstrap, and JavaScript, featuring real-time arithmetic, 
                         percentage, and exponent operations. Designed with clean UI and smart logic for smooth, accurate calculations.
                     </p>
+                    <h5>Skills Used:</h5>
+                    <HighlightSkills skills={['HTML', 'CSS', 'Bootstrap', 'JavaScript']} />
                     <a className='btn btn-primary' href="https://glowing-sfogliatella-5c052c.netlify.app/" target="_blank" rel="noopener noreferrer">Go to App</a>
                 </div>
             </div>
@@ -180,6 +189,8 @@ export default function Projects(){
                         the Cart and Wishlist, enhancing user experience. Implemented an admin panel for efficient product 
                         management. Designed an interactive and responsive UI for seamless shopping.
                     </p>
+                    <h5>Skills Used:</h5>
+                    <HighlightSkills skills={['MongoDB', 'Express.js', 'React', 'Node.js', 'Bootstrap']} />
                     <a className='btn btn-primary' href="https://github.com/2001dhanasekaran/mern-project" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </div>
             </div>
