@@ -3,7 +3,7 @@ import { MdEmail } from 'react-icons/md';
 
 export default function Contact() {
     return (
-        <div className="container mt-5 py-5">
+        <div className="container py-5">
             <h1 data-aos="fade-up">Contact Details</h1>
             <a href='tel:+919597685056' className='btn btn-outline-success ms-3 mt-2 pb-3' data-aos="fade-up">
                 <span className='me-3 fs-3'><FaWhatsapp /></span>+91 95976 85056
