@@ -10,7 +10,7 @@
   bottom: -4px;
   width: 0%;
   height: 2px;
-  background-color: #7a40b1;
+  background-color:rgb(122, 64, 177);
   transition: width 0.3s ease;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .nav-link:hover{
-  color: #7a40b1;
+  color: rgb(122, 64, 177);
 }
 
 @media (max-width: 768px) {
@@ -86,12 +86,11 @@
   padding: 2px;
   border-radius: inherit;
 
-  /* 🔥 Big 2D gradient sheet */
   background: linear-gradient(
     to right,
     transparent,
     transparent,
-    rgba(67, 16, 116, 0.9),
+    rgb(122, 64, 177),
     transparent,
     transparent
   );
