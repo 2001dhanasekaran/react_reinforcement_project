@@ -56,7 +56,7 @@ export default function Projects(){
                         API with geolocation support and dynamic city-based weather reports.
                     </p>
                     <h5>Skills Used:</h5>
-                    <HighlightSkills skills={['HTML', 'CSS', 'JavaScript', 'API']} />
+                    <HighlightSkills skills={['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'API']} />
                     <a className='btn btn-primary' href="https://quiet-maamoul-140ac3.netlify.app/" target="_blank" rel="noopener noreferrer">Go to App</a>
                 </div>
             </div>
@@ -190,7 +190,7 @@ export default function Projects(){
                         management. Designed an interactive and responsive UI for seamless shopping.
                     </p>
                     <h5>Skills Used:</h5>
-                    <HighlightSkills skills={['MongoDB', 'Express.js', 'React', 'Node.js', 'Bootstrap']} />
+                    <HighlightSkills skills={['MongoDB', 'Express.js', 'React', 'Node.js', 'Bootstrap', 'API', 'Session']} />
                     <a className='btn btn-primary' href="https://github.com/2001dhanasekaran/mern-project" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </div>
             </div>
