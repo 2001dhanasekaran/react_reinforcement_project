@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import SocialLinks from './socialLinks';
+import ThemeController from './themeController';
 export default function Navtoggle(){
 
     const [activeLink, setActiveLink] = useState('top');
@@ -43,6 +44,7 @@ export default function Navtoggle(){
             <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow">
                 <div className="container-fluid">
                     <h1 className="navbar-brand">Portfolio</h1>
+                    <ThemeController />
                     <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" 
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

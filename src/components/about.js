@@ -1,10 +1,10 @@
-import htmlLogo from '../imgs/html_logo.jpg';
+import htmlLogo from '../imgs/html_logo.png';
 import cssLogo from '../imgs/css_logo.webp';
 import bootstrapLogo from '../imgs/bootstrap_logo.png';
 import jsLogo from '../imgs/javascript_logo.webp';
 import reactLogo from '../imgs/react_logo.webp';
 import expressLogo from '../imgs/express-js.png';
-import mongoDBLogo from '../imgs/mongodb-icon.svg';
+import mongoDBLogo from '../imgs/mongodb-icon.png';
 import nodeLogo from '../imgs/nodejs.svg';
 
 export default function About(){
