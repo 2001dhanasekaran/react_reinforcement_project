@@ -3,15 +3,11 @@ html {
 }
 
 .blur_caption{
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(187, 184, 184, 0.795);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-radius: 10px;
   padding: 10px;
-}
-
-.blur_caption:hover{
-  display: none;
 }
 
 .carousel-control-prev-icon,

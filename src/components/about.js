@@ -6,21 +6,24 @@ import reactLogo from '../imgs/react_logo.webp';
 import expressLogo from '../imgs/express-js.png';
 import mongoDBLogo from '../imgs/mongodb-icon.png';
 import nodeLogo from '../imgs/nodejs.svg';
+import gitLogo from '../imgs/git-logo.png';
+import gitHubLogo from '../imgs/github-logo.png';
 
 export default function About(){
     const skills=[
-        { src: htmlLogo, alt: 'HTML logo' },
-        { src: cssLogo, alt: 'CSS logo' },
-        { src: bootstrapLogo, alt: 'Bootstrap logo' },
-        { src: jsLogo, alt: 'JavaScript logo' },
-        { src: reactLogo, alt: 'React logo' },
-        { src: nodeLogo, alt: 'Node Logo'},
-        { src: expressLogo, alt:'Express Logo'},
-        { src: mongoDBLogo, alt: 'MongoDB Logo'},
-
+        { src: htmlLogo, alt: 'HTML' },
+        { src: cssLogo, alt: 'CSS' },
+        { src: bootstrapLogo, alt: 'Bootstrap' },
+        { src: jsLogo, alt: 'JavaScript' },
+        { src: reactLogo, alt: 'React' },
+        { src: nodeLogo, alt: 'Node.JS'},
+        { src: expressLogo, alt:'Express.JS'},
+        { src: mongoDBLogo, alt: 'MongoDB'},
+        { src: gitLogo, alt: 'Git'},
+        { src: gitHubLogo, alt: 'GitHub' }
     ];
     return(
-        <div className="container mt-5 pt-5 border">
+        <div className="container mt-5 pt-5 shadow">
             <h1 data-aos="slide-up">About</h1>
             <p data-aos="slide-up">
             I am a proficient MERN Stack Developer with expertise in building responsive, high-performance web applications. 
@@ -35,7 +38,7 @@ export default function About(){
                 {skills.map((skill, index)=>(
                     <div className="col-6 col-md-4 col-lg-2 mb-4 mx-auto d-block" key={index}>
                         <div>
-                            <img src={skill.src} alt={skill.alt} className='img-fluid' style={{maxHeight:'150px', objectFit: 'contain'}} />
+                            <img src={skill.src} alt={skill.alt} title={skill.alt} className='img-fluid' style={{maxHeight:'150px', objectFit: 'contain'}} />
                         </div>
                     </div>
                 ))}

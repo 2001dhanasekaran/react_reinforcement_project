@@ -12,20 +12,20 @@ export default function SocialLinks() {
             <button className='nav-link btn border-0 bg-transparent' onClick={handleToggle}>Social Links
                 <span className={`bi ${toggleOpen ? "bi-chevron-up" : "bi-chevron-down"} fs-6 ms-2 float-end`}></span>
             </button>
-            <div className={`position-absolute border p-3 d-flex flex-column ms-3 mt-2 bg-white rounded social-dropdown-box ${toggleOpen ? "d-block" : "d-none"}`}>
-                <a className='social-link text-decoration-none text-dark mb-2' 
+            <div className={`position-absolute border p-3 d-flex flex-column ms-3 mt-2 rounded social-dropdown-box ${toggleOpen ? "d-block" : "d-none"}`}>
+                <a className='social-link text-decoration-none text-body mb-2' 
                     target="_blank" rel="noopener noreferrer"
                     href='https://www.linkedin.com/in/dhanasekaran-p-1911b3209/'>
                     <span className="me-2 bi bi-linkedin"></span>
                     Linkedin
                 </a>
-                <a className='social-link text-decoration-none text-dark mb-2' 
+                <a className='social-link text-decoration-none text-body mb-2' 
                     target="_blank" rel="noopener noreferrer"
                     href='https://github.com/2001dhanasekaran/2001dhanasekaran'>
                     <span className="me-2 bi bi-github"></span>
                     GitHub
                 </a>
-                <a className='social-link text-decoration-none text-dark' 
+                <a className='social-link text-decoration-none text-body' 
                     target="_blank" rel="noopener noreferrer"
                     href='https://github.com/2001dhanasekaran/react_reinforcement_project'>
                     <span className="me-2 bi bi-code-slash"></span>

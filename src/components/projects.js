@@ -93,84 +93,84 @@ export default function Projects(){
                             <img src={eComLogin} className="d-block w-100 img-fluid" alt="eComLogin" style={{objectFit:'contain', height: '400px'}} />
                             <div className="carousel-caption blur_caption">
                                 <h5>Login Page</h5>
-                                <p>User login interface with authentication features.</p>
+                                <p>Secure authentication using session-based login.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src={eComRegister} className="d-block w-100 img-fluid" alt="eComRegister" style={{objectFit:'contain', height: '400px'}} />
                             <div className="carousel-caption blur_caption">
                                 <h5>Registration Page</h5>
-                                <p>User registration interface with form validation.</p>
+                                <p>Form-driven user onboarding with validation logic.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src={ecomAdmin} className="d-block w-100 img-fluid" alt="ecomAdmin" style={{objectFit:'contain', height: '400px'}} />
                             <div className="carousel-caption text-dark blur_caption">
                                 <h5>Admin Dashboard</h5>
-                                <p>Admin interface for managing products.</p>
+                                <p>Role-based admin panel for product management.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src={adminAddProduct} className="d-block w-100 img-fluid" alt="adminAddProduct" style={{objectFit:'contain', height: '400px'}} />
                             <div className="carousel-caption text-dark blur_caption">
                                 <h5>Add Product Dialog box</h5>
-                                <p>Admin interface for adding new products.</p>
+                                <p>Modal form to create products with image upload.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src={adminEditProduct} className="d-block w-100 img-fluid" alt="adminEditProduct" style={{objectFit:'contain', height: '400px'}} />
                             <div className="carousel-caption text-dark blur_caption">
                                 <h5>Edit Product Dialog box</h5>
-                                <p>Admin interface for editing existing products.</p>
+                                <p>Dynamic modal for updating existing product data.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src={ecomHome} className="d-block w-100 img-fluid" alt="ecomHome" style={{objectFit:'contain', height: '400px'}} />
                             <div className="carousel-caption blur_caption">
                                 <h5>Home Page</h5>
-                                <p>User-friendly interface</p>
+                                <p>Product listing page with dynamic data rendering.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src={categories} className="d-block w-100 img-fluid" alt="categories" style={{objectFit:'contain', height: '400px'}} />
                             <div className="carousel-caption blur_caption">
                                 <h5>Categories Page</h5>
-                                <p>User-friendly interface for browsing products based on categories.</p>
+                                <p>Category-wise product filtering implementation.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src={productDisplay} className="d-block w-100 img-fluid" alt="productDisplay" style={{objectFit:'contain', height: '400px'}} />
                             <div className="carousel-caption text-dark blur_caption">
                                 <h5>Product Display Page</h5>
-                                <p>User-friendly interface for viewing product details.</p>
+                                <p>Detailed product view with cart and wishlist actions.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src={wishlist} className="d-block w-100 img-fluid" alt="wishlist" style={{objectFit:'contain', height: '400px'}} />
                             <div className="carousel-caption text-dark blur_caption">
                                 <h5>Wishlist Page</h5>
-                                <p>User-friendly interface for managing product wishlists.</p>
+                                <p>Persistent wishlist management using state handling.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src={cart} className="d-block w-100 img-fluid" alt="cart" style={{objectFit:'contain', height: '400px'}} />
                             <div className="carousel-caption text-dark blur_caption">
                                 <h5>Cart Page</h5>
-                                <p>User-friendly interface for managing shopping cart items.</p>
+                                <p>Real-time cart updates with quantity control.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src={about} className="d-block w-100 img-fluid" alt="about" style={{objectFit:'contain', height: '400px'}} />
                             <div className="carousel-caption text-dark blur_caption">
                                 <h5>About Page</h5>
-                                <p>User-friendly interface for viewing information about the company.</p>
+                                <p>Static content page describing platform details.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src={contact} className="d-block w-100 img-fluid" alt="contact" style={{objectFit:'contain', height: '400px'}} />
                             <div className="carousel-caption text-dark blur_caption ">
                                 <h5>Contact Page</h5>
-                                <p>User-friendly interface for contacting support.</p>
+                                <p>Form-based support communication interface.</p>
                             </div>
                         </div>
                     </div>
