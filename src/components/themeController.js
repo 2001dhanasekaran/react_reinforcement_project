@@ -1,12 +1,8 @@
 import {useState, useEffect} from 'react';
 export default function ThemeController(){
-    const [theme, setTheme] = useState('light');
-
-    useEffect(()=>{
-        const savedTheme= localStorage.getItem('theme') || 'light';
-        setTheme(savedTheme);
-        document.documentElement.setAttribute('data-bs-theme',savedTheme);
-    },[]);
+    const [theme, setTheme] = useState(()=>{
+        return localStorage.getItem('theme') || 'light';
+    });
 
     useEffect(()=>{
         document.documentElement.setAttribute('data-bs-theme',theme);
